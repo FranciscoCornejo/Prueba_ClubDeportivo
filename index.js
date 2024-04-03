@@ -4,8 +4,6 @@ const app = express();
 const port = process.env.port || 3000;
 
 import router from "./routes/router.js";
-import fs from "fs";
-import path from "path";
 
 app.use("/", router);
 
